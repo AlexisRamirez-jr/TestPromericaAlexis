@@ -1,0 +1,289 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\ApiProductos\\ApiProductos.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\ApiProductos\\ApiProductos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\ApiProductos\\ApiProductos.csproj",
+        "projectName": "ApiProductos",
+        "projectPath": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\ApiProductos\\ApiProductos.csproj",
+        "packagesPath": "C:\\Users\\ALEXIS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\ApiProductos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ALEXIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\ApiUsuarios\\ApiUsuarios.csproj": {
+                "projectPath": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\ApiUsuarios\\ApiUsuarios.csproj"
+              },
+              "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Core\\Core.csproj"
+              },
+              "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\ApiUsuarios\\ApiUsuarios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\ApiUsuarios\\ApiUsuarios.csproj",
+        "projectName": "ApiUsuarios",
+        "projectPath": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\ApiUsuarios\\ApiUsuarios.csproj",
+        "packagesPath": "C:\\Users\\ALEXIS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\ApiUsuarios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ALEXIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Core\\Core.csproj"
+              },
+              "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\ALEXIS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ALEXIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ALEXIS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ALEXIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ALEXIS\\Desktop\\TestPromericaAlexis\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
